@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "proeve-rss-teams-20261024",
+    "published": "2026-10-24T19:44:25+00:00",
+    "title": "Prøve: Fagstraum til Teams",
+    "summary": "Dette er eit prøveinnlegg for å kontrollere at RSS-varslinga frå Fagstraum kjem fram til Teams. Ingen handling er nødvendig.",
+    "url": "https://thomaskvale-arch.github.io/fagstrom/",
+    "topics": [
+      "digitalisering"
+    ]
+  }
+]
