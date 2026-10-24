@@ -12,6 +12,10 @@ Nettside: https://thomaskvale-arch.github.io/fagstrom/
 
 ## Publisering
 
+På Thomas sin Windows-PC: opne snarvegen **Fagstraum – nytt funn**. Fyll inn tittel, kjeldelenkje, omtale og tema. Vel «Sjå over og publiser», og deretter «Publiser offentleg». GitHub CLI må vere innlogga med skrivetilgang til repoet. Passord og token ligg ikkje i programmet eller nettsida.
+
+`publisher.py` er eit lokalt Windows-program, ikkje eit offentleg redigeringsskjema. Utkast blir lagra i `%LOCALAPPDATA%\Fagstraum\utkast.json`. Programmet les siste versjon frå GitHub før publisering, bevarer andre innlegg og bruker stabil ID for å unngå duplikat ved nytt forsøk etter nettfeil. «Lagra på GitHub» tyder at nettsida deretter må byggjast; knappen for publiseringsstatus viser om bygginga lukkast.
+
 Innlegg ligg i `entries.json`. Ei lagra endring på main byggjer og publiserer automatisk via GitHub Actions. Berre tilsikta offentleg innhald skal leggjast her; ikkje nøklar, interne dokument eller private transkripsjonar.
 
 Format for eitt innlegg (døme, ikkje eit publisert funn):
