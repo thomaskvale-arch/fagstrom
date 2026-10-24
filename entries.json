@@ -8,5 +8,15 @@
     "topics": [
       "digitalisering"
     ]
+  },
+  {
+    "id": "proeve-rss-teams-20261024-2",
+    "published": "2026-10-24T20:06:32+00:00",
+    "title": "Prøve 2: RSS-varsling til Teams",
+    "summary": "Dette prøveinnlegget vart publisert etter at Teams-flyten vart lagra på nytt. Dersom du ser denne omtalen og lenkja i Teams, fungerer overføringa av RSS-innhaldet.",
+    "url": "https://thomaskvale-arch.github.io/fagstrom/",
+    "topics": [
+      "digitalisering"
+    ]
   }
 ]
